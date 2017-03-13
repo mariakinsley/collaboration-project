@@ -1,0 +1,115 @@
+body {
+  background-image: url(http://wallpaperlayer.com/img/2015/6/solid-gray-background-8438-8761-hd-wallpapers.jpg);
+  width: 100%;
+  height:100%;
+
+}
+/* About Header */
+h1{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+div {
+  display: inline-block;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/* Our Images */
+.students img {
+  width: 270px;
+  height: 270px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+
+}
+
+.matt {
+  text-align: center;
+  width: 260px;
+  height: 150px;
+  margin-left: 100px;
+}
+
+.Brad p {
+  text-align: center;
+}
+
+.Maria p {
+  text-align: center;
+}
+
+#p1 {
+  text-align: center;
+  width: 250px;
+  word-wrap: break-word;
+  padding-left: 100px;
+}
+
+#p2 {
+  text-align: center;
+  width: 250px;
+  word-wrap: break-word;
+  padding-left: 100px;
+}
+
+#p3 {
+  text-align: center;
+  width: 250px;
+  word-wrap: break-word;
+  padding-left: 100px;
+}
+
+
+/* Nav bar Div*/
+.navbar {
+  height: 50%;
+  width: 100%;
+  background-color: firebrick;
+  opacity: .7;
+  border-style: outset;
+}
+
+.navbar2 {
+  position: relative;
+  z-index: 1;
+  height: 70%;
+  width: 100%;
+  background-color: cornflowerblue;
+}
+
+/* Nav Text*/
+.nav a {
+  color: white;
+}
+
+a:hover {
+  background: orange;
+}
+/* Our Names Above Images */
+.names p {
+  font-size: 30px;
+}
+/* Nav Bar Words */
+li {
+  display: inline;
+  font-size: 20px;
+  margin-left: 60px;
+  bottom: 40px;
+}
+
+.container {
+  max-width: 30%;
+  max-height: 200%;
+  background-color: red;
+}
