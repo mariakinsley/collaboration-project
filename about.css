@@ -1,5 +1,5 @@
 body {
-  background-image: url(http://wallpaperlayer.com/img/2015/6/solid-gray-background-8438-8761-hd-wallpapers.jpg);
+  background-image: url(http://www.icanbecreative.com/res/freeweb/2011/04/code.png);
   width: 100%;
   height:100%;
 
@@ -11,18 +11,20 @@ h1{
   color: white;
 }
 
-div {
-  display: inline-block;
-}
-
 p {
   text-align: center;
-  color: white;
+  color: black;
   font-size: 30px;
 }
 
 a:link {
   text-decoration: none;
+}
+
+/* Our Names Above Images */
+.namesp p {
+  font-size: 30px;
+  margin-left: 80px;
 }
 
 /* Our Images */
@@ -31,23 +33,13 @@ a:link {
   height: 270px;
   margin-left: 100px;
   margin-bottom: 10px;
-
+  margin-top: 70;
 }
 
-.matt {
-  text-align: center;
-  width: 260px;
-  height: 150px;
-  margin-left: 100px;
+.column {
+  display: inline-block;
 }
 
-.Brad p {
-  text-align: center;
-}
-
-.Maria p {
-  
-}
 
 #p1 {
   text-align: center;
@@ -60,16 +52,15 @@ a:link {
   text-align: center;
   width: 250px;
   word-wrap: break-word;
-  padding-left: 100px;
+  padding-left: 110px;
 }
 
 #p3 {
   text-align: center;
   width: 250px;
   word-wrap: break-word;
-  padding-left: 100px;
+  padding-left: 105px;
 }
-
 
 /* Nav bar Div*/
 .navbar {
@@ -77,15 +68,8 @@ a:link {
   width: 100%;
   background-color: firebrick;
   opacity: .7;
+  overflow: scroll;
   border-style: outset;
-}
-
-.navbar2 {
-  position: relative;
-  z-index: 1;
-  height: 70%;
-  width: 100%;
-  background-color: cornflowerblue;
 }
 
 /* Nav Text*/
@@ -97,9 +81,7 @@ a:hover {
   background: orange;
 }
 /* Our Names Above Images */
-.names p {
-  font-size: 30px;
-}
+
 /* Nav Bar Words */
 li {
   display: inline;
@@ -112,4 +94,8 @@ li {
   max-width: 30%;
   max-height: 200%;
   background-color: red;
+}
+
+@media {
+
 }
