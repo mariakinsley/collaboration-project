@@ -1,0 +1,63 @@
+body {
+  background-image: url("http://www.icanbecreative.com/res/freeweb/2011/04/code.png");
+}
+.navbar {
+  height: 50%;
+  width: 100%;
+  background-color: firebrick;
+  opacity: .7;
+  overflow: scroll;
+  border-style: outset;
+}
+.nav a {color: white;}
+
+a:link {text-decoration: none;}
+H1{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+h2{
+  text-align: center;
+  font-size: 60px;
+}
+li{
+  display: inline;
+  font-size: 20px;
+  margin-left: 60px;
+  bottom: 40px;
+}
+
+.box {
+  height: 100px;
+  width: 1000px;
+  /*border: 2px solid black;*/
+  margin: 0 auto;
+  text-align: center;
+}
+
+.box li {
+  display: inline block;
+  font-size: 80px;
+  color: black;
+  /*border: 2px solid black;*/
+  text-align: center;
+  margin: 100px 50px 100px 0px;
+}
+.banana {
+  display: block;
+  height: 300px;
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+.banana li {
+  text-align: left;
+  display: block;
+  margin: 10px;
+}
+
+.banana ul{
+  padding: 0;
+  list-style-type: disc;
+}
